@@ -6,4 +6,5 @@ WORKDIR /usr/src/app
 
 # Install app dependencies
 
-RUN echo "Hello world" > /tmp/newfile
+#RUN echo "Hello world" > /tmp/newfile
+RUN /bin/bash ping google.com
